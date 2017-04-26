@@ -1,13 +1,8 @@
-/**
- * MyClass
- */
-class MyClass {
+import { sayHello } from "./greet";
 
-    private name: string;
-    private desc : string;
-
-    constructor(name: string, desc: string) {
-        this.name = name;
-        this.desc = desc;
-    }
+function showHello(divName: string, name: string) {
+    const elt = document.getElementById(divName);
+    elt.innerText = sayHello(name);
 }
+
+showHello("greeting", "TypeScript3");

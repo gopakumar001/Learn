@@ -38,6 +38,7 @@ jspm_packages
 
 #destination folder
 dist
+build
 
 #vs code history plugin folder
 .history
