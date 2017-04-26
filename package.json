@@ -1,0 +1,27 @@
+{
+  "name": "learn",
+  "version": "1.0.0",
+  "description": "This is to prepare for interview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gopakumar001/Learn.git"
+  },
+  "author": "Gopakumar V",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gopakumar001/Learn/issues"
+  },
+  "homepage": "https://github.com/gopakumar001/Learn#readme",
+  "devDependencies": {
+    "browserify": "^14.3.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.6",
+    "tsify": "^3.0.1",
+    "typescript": "^2.2.2",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
